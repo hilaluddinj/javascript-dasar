@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Swith (Pengkodisian)</title>
+  </head>
+  <body>
+    <h1>Hello World!</h1>
+    <script>
+      var item = prompt("Silahkan masukan makanan dan minuman anda : \ncth : (nasi, susu sate, burger, sayur, softdrink)");
+
+      switch (item) {
+        case "nasi":
+        case "susu":
+        case "sayur":
+          alert("Makanan / Minuman yang anda pilih SEHAT!");
+          break;
+        case "sate":
+        case "burger":
+          alert("Makanan / Minuman yang anda pilih TIDAK SEHAT!");
+          break;
+        default:
+          alert("Makanan / Minuman yang anda pilih SALAH!");
+          break;
+      }
+    </script>
+  </body>
+</html>
